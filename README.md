@@ -49,19 +49,20 @@ ProtectionLib.canUse(player,location);
 4) Add softdepend to plugin.yml
 
 ```yaml
-   softdepend: [ WorldGuard, Towny, Factions, Lands, PlotSquared, CrashClaim, SuperiorSkyblock2, HuskTowns, BentoBox, HuskClaims, GriefPrevention ]
+   softdepend: [ WorldGuard, Towny, Factions, Lands, PlotSquared, CrashClaim, SuperiorSkyblock2, HuskTowns, BentoBox, HuskClaims, GriefPrevention, Residence ]
 ```
 
 # Supported plugins
 - [WorldGuard](https://dev.bukkit.org/projects/worldguard) (Free)
 - [Towny](https://www.spigotmc.org/resources/towny-advanced.72694/) (Free)
 - [FactionsUUID](https://www.spigotmc.org/resources/factionsuuid.1035/) (Paid)
-- [Lands](https://www.spigotmc.org/resources/lands-land-claim-plugin-grief-prevention-protection-gui-management-nations-wars-1-17-support.53313/) (Paid)
+- [Lands](https://www.spigotmc.org/resources/lands.53313/) (Paid)
 - [PlotSquared](https://www.spigotmc.org/resources/plotsquared.1177/) (Free)
-- [CrashClaim](https://www.spigotmc.org/resources/crashclaim-claiming-plugin.94037/) (Paid)
+- [CrashClaim](https://www.spigotmc.org/resources/crashclaim.94037/) (Paid)
 - [HuskTowns](https://www.spigotmc.org/resources/92672) (Paid)
 - [SuperiorSkyblock2](https://bg-software.com/superiorskyblock/) (Free)
 - [BentoBox](https://github.com/BentoBoxWorld/BentoBox) (Free)
 - [HuskClaims](https://william278.net/project/huskclaims) (Paid)
 - [GriefPrevention](https://www.spigotmc.org/resources/griefprevention.1884/) (Free)
+- [Residence](https://www.spigotmc.org/resources/residence.11480/) (Paid)
 

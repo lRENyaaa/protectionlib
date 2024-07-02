@@ -12,7 +12,6 @@ version = pluginVersion
 
 repositories {
     mavenCentral()
-    //mavenLocal()
     maven("https://repo.codemc.org/repository/maven-public/")
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://ci.ender.zone/plugin/repository/everything/")
@@ -40,8 +39,9 @@ dependencies {
     implementation(platform("com.intellectualsites.bom:bom-1.18.x:1.20"))
     compileOnly("com.plotsquared:PlotSquared-Core")
     compileOnly("com.plotsquared:PlotSquared-Bukkit")
-    //compileOnly("com.github.TechFortress:GriefPrevention:16.18")
     implementation(files("libs/GriefPrevention-16.18.jar"))
+    implementation(files("libs/Residence-5.1.5.0.jar"))
+    implementation(files("libs/CrashClaim-1.0.42.jar"))
     compileOnly("net.william278.huskclaims:huskclaims-bukkit:1.1.2")
     compileOnly("net.william278.husktowns:husktowns-bukkit:3.0.4")
     compileOnly("com.bgsoftware:SuperiorSkyblockAPI:2024.1")
