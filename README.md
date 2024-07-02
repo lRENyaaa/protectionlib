@@ -49,7 +49,7 @@ ProtectionLib.canUse(player,location);
 4) Add softdepend to plugin.yml
 
 ```yaml
-   softdepend: [ WorldGuard, Towny, Factions, Lands, PlotSquared, CrashClaim, HuskTowns ]
+   softdepend: [ WorldGuard, Towny, Factions, Lands, PlotSquared, CrashClaim, SuperiorSkyblock2, HuskTowns, BentoBox, HuskClaims, GriefPrevention ]
 ```
 
 # Supported plugins
@@ -60,3 +60,8 @@ ProtectionLib.canUse(player,location);
 - [PlotSquared](https://www.spigotmc.org/resources/plotsquared.1177/) (Free)
 - [CrashClaim](https://www.spigotmc.org/resources/crashclaim-claiming-plugin.94037/) (Paid)
 - [HuskTowns](https://www.spigotmc.org/resources/92672) (Paid)
+- [SuperiorSkyblock2](https://bg-software.com/superiorskyblock/) (Free)
+- [BentoBox](https://github.com/BentoBoxWorld/BentoBox) (Free)
+- [HuskClaims](https://william278.net/project/huskclaims) (Paid)
+- [GriefPrevention](https://www.spigotmc.org/resources/griefprevention.1884/) (Free)
+

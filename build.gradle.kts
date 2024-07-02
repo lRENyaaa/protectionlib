@@ -21,6 +21,7 @@ repositories {
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://jitpack.io")
     maven("https://repo.william278.net/releases")
+    maven("https://repo.bg-software.com/repository/api/")
 }
 
 dependencies {
@@ -43,6 +44,7 @@ dependencies {
     implementation(files("libs/GriefPrevention-16.18.jar"))
     compileOnly("net.william278.huskclaims:huskclaims-bukkit:1.1.2")
     compileOnly("net.william278.husktowns:husktowns-bukkit:3.0.4")
+    compileOnly("com.bgsoftware:SuperiorSkyblockAPI:2024.1")
 }
 
 java {
